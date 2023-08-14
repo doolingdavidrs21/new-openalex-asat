@@ -53,10 +53,10 @@ def load_dfinfo_asat():
     dg = pd.read_pickle('asatdfinfo2d.pkl.gz')
     return dg[dg['cluster'] != -1]
 
-@st.cache_data()
-def load_dfgeo_asat():
-    dg = pd.read_pickle('asatgeo.pkl')
-    return dg
+#@st.cache_data()
+#def load_dfgeo_asat():
+#    dg = pd.read_pickle('asatgeo.pkl')
+#    return dg
 
 
 centroids = load_centroids_asat()
@@ -65,7 +65,7 @@ dfinfo = load_dfinfo_asat()
 dfinfo['cluster_'] = dfinfo["cluster"].apply(str)
 dfgeo = load_dfgeo_asat()
 
-st.map(dfgeo)
+#st.map(dfgeo)
 
 @st.cache_data()
 def get_fig_asat():
