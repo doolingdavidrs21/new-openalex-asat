@@ -13,24 +13,24 @@ st.set_page_config(layout='wide')
 
 st.title("Example: Papers with at least one Author affiliated with one of these institutions:")
 st.markdown("""
-* [Nanjing University of Aeronautics and Astronautics 南京航空航天大学 latitude': 32.036007,
-   'longitude': 118.813805](http://www.nuaa.edu.cn/)
-* [Shenyang Aerospace University 沈阳航空航天大学 'latitude': 41.92633,
-   'longitude': 123.404305](http://en.sau.edu.cn/)
-* [China Aerospace Science and Industry Corporation (China) 中国航天科工集团 'latitude': 39.9227,
-   'longitude': 116.30908](http://english.casic.cn/)
-* [Zhengzhou University of Aeronautics 郑州航空工业管理学院 'latitude': 34.716457,
-   'longitude': 113.64419](http://zua.edu.cn/main.html)
-* [North China Institute of Science and Technology 华北科技学院 'latitude': 39.953175,
-   'longitude': 116.8048](http://www.ncist.edu.cn/)
-* [China Aerospace Science and Technology Corporation 中国航天科技集团 'latitude': 39.804134,
-   'longitude': 116.41882]('http://english.spacechina.com/n16421/index.html)
-* [North China Institute of Aerospace Engineering 'latitude': 39.526268,
-   'longitude': 116.73137](http://www.nciae.edu.cn/default.html)
-* [Space Engineering University 'latitude': 40.35555,
-   'longitude': 116.65844](http://www.mod.gov.cn/services/2017-06/15/content_4783023.htm)
-* [North China Research Institute of Electro-optics 'latitude': 39.984455,
-   'longitude': 116.491936](http://www.ncrieo.com/)
+* Nanjing University of Aeronautics and Astronautics 南京航空航天大学 latitude': 32.036007,
+   'longitude': 118.813805
+* Shenyang Aerospace University 沈阳航空航天大学 'latitude': 41.92633,
+   'longitude': 123.404305
+* China Aerospace Science and Industry Corporation (China) 中国航天科工集团 'latitude': 39.9227,
+   'longitude': 116.30908
+* Zhengzhou University of Aeronautics 郑州航空工业管理学院 'latitude': 34.716457,
+   'longitude': 113.64419
+* North China Institute of Science and Technology 华北科技学院 'latitude': 39.953175,
+   'longitude': 116.8048
+* China Aerospace Science and Technology Corporation 中国航天科技集团 'latitude': 39.804134,
+   'longitude': 116.41882
+* North China Institute of Aerospace Engineering 'latitude': 39.526268,
+   'longitude': 116.73137
+* Space Engineering University 'latitude': 40.35555,
+   'longitude': 116.65844
+* North China Research Institute of Electro-optics 'latitude': 39.984455,
+   'longitude': 116.491936
 """)
 
 # add an st.map maybe, would be cool
